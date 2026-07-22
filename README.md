@@ -1,217 +1,201 @@
-<title>CodeFixer | Criação de Sites, Desenvolvimento de Sistemas e Manutenção</title>
-
-<meta name="description"
-content="Criação de sites profissionais, desenvolvimento de sistemas, manutenção de computadores e suporte técnico em Cachoeiras de Macacu - RJ."><section class="hero">
-
-<h2>Criação de Sites, Desenvolvimento de Sistemas e Suporte em TI</h2>
-
-<p>
-
-Desenvolvemos sites modernos, sistemas personalizados,
-landing pages, automações e realizamos manutenção
-de computadores em Cachoeiras de Macacu - RJ.
-
-</p>
-
-<a href="https://wa.me/5521999212228"
-class="btn"
-target="_blank">
-
-Solicitar Orçamento
-
-</a>
-
-</section><h2 id="servicos" class="section-title">
-
-Nossos Serviços
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>🌐 Criação de Sites</h3>
-
-<p>
-
-Sites institucionais, landing pages,
-portfólios, blogs e lojas virtuais.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>💻 Desenvolvimento de Sistemas</h3>
-
-<p>
-
-Sistemas personalizados para empresas,
-painéis administrativos,
-ERP, CRM e automações.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🖥 Manutenção de Computadores</h3>
-
-<p>
-
-Formatação, SSD,
-limpeza, upgrades,
-remoção de vírus
-e otimização.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>☁ Suporte Técnico</h3>
-
-<p>
-
-Suporte remoto e presencial.
-
-</p>
-
-</div>
-
-</div><section id="portfolio">
-
-<h2 class="section-title">
-
-Portfólio
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>Site Empresarial</h3>
-
-<p>
-
-Site moderno e responsivo.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>Sistema Financeiro</h3>
-
-<p>
-
-Controle financeiro completo.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>Painel Administrativo</h3>
-
-<p>
-
-Dashboard para empresas.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>Landing Page</h3>
-
-<p>
-
-Página para vendas e marketing.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>CRM</h3>
-
-<p>
-
-Sistema de cadastro de clientes.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=700"
-width="100%"
-style="border-radius:15px;">
-
-<h3>Controle de Estoque</h3>
-
-<p>
-
-Sistema para gestão de produtos.
-
-</p>
-
-</div>
-
-</div>
-
-</section><section id="sobre">
-
-<h2 class="section-title">
-
-Sobre a CodeFixer
-
-</h2>
-
-<p
-style="text-align:center;
-max-width:900px;
-margin:auto;
-color:#94a3b8;">
-
-A CodeFixer é especializada na criação de sites,
-desenvolvimento de sistemas personalizados,
-automações e manutenção de computadores.
-
-Atendemos empresas e profissionais que buscam soluções modernas,
-rápidas e seguras para seus negócios.
-
-</p>
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>CodeFixer | Manutenção de Computadores em Cabo Frio</title>
+    <meta name="description" content="Manutenção de computadores em Cabo Frio. Formatação, upgrade SSD, limpeza e suporte técnico profissional.">
+    
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #00ff88;
+            --dark: #0f172a;
+            --card: #1e293b;
+            --light: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--dark);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            z-index: 1000;
+        }
+
+        header h1 {
+            color: var(--primary);
+            font-size: 22px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .hero {
+            padding: 160px 8% 80px;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #111827);
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: var(--light);
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: #000;
+            padding: 16px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 60px 0 20px;
+            font-size: 28px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 8%;
+        }
+
+        .card {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .card p {
+            color: var(--light);
+        }
+
+        #contato {
+            text-align: center;
+            padding: 60px 8%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            color: var(--light);
+            font-size: 14px;
+        }
+
+        @media(max-width: 768px) {
+            .hero h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CodeFixer</h1>
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Soluções Profissionais em Informática</h2>
+    <p>Manutenção completa para seu computador em Cabo Frio.</p>
+    <a href="https://wa.me/5521999212228" class="btn" target="_blank">
+        Solicitar Suporte
+    </a>
 </section>
+
+<h2 id="servicos" class="section-title">Nossos Serviços</h2>
+
+<div class="grid">
+    <div class="card">
+        <h3>Formatação</h3>
+        <p>Instalação limpa e otimizada do sistema operacional.</p>
+    </div>
+    <div class="card">
+        <h3>Upgrade SSD</h3>
+        <p>Mais velocidade e desempenho para seu computador.</p>
+    </div>
+    <div class="card">
+        <h3>Limpeza Interna</h3>
+        <p>Manutenção preventiva para aumentar a vida útil do equipamento.</p>
+    </div>
+</div>
+
+<section id="contato">
+    <h2 class="section-title">Entre em Contato</h2>
+    <p>Atendimento rápido pelo WhatsApp.</p>
+    <br>
+    <a href="https://wa.me/5521999212228" class="btn" target="_blank">
+        Falar no WhatsApp
+    </a>
+</section>
+
+<footer>
+    © 2026 CodeFixer - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
+
