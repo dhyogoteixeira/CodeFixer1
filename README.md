@@ -1,200 +1,413 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO -->
-    <title>CodeFixer | Manutenção de Computadores em Cabo Frio</title>
-    <meta name="description" content="Manutenção de computadores em Cabo Frio. Formatação, upgrade SSD, limpeza e suporte técnico profissional.">
-    
-    <!-- Fonte -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary: #00ff88;
-            --dark: #0f172a;
-            --card: #1e293b;
-            --light: #94a3b8;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
+<title>CodeFixer | Criação de Sites, Sistemas e Manutenção em Cachoeiras de Macacu</title>
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: var(--dark);
-            color: #fff;
-            line-height: 1.6;
-        }
+<meta name="description" content="Criação de sites, desenvolvimento de sistemas, manutenção de computadores e suporte técnico em Cachoeiras de Macacu - RJ.">
 
-        header {
-            position: fixed;
-            width: 100%;
-            top: 0;
-            background: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(10px);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 8%;
-            z-index: 1000;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        header h1 {
-            color: var(--primary);
-            font-size: 22px;
-        }
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 25px;
-            font-weight: 500;
-            transition: 0.3s;
-        }
+<style>
 
-        nav a:hover {
-            color: var(--primary);
-        }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
 
-        .hero {
-            padding: 160px 8% 80px;
-            text-align: center;
-            background: linear-gradient(135deg, #0f172a, #111827);
-        }
+body{
+background:#0f172a;
+color:#fff;
+}
 
-        .hero h2 {
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
+header{
 
-        .hero p {
-            color: var(--light);
-            margin-bottom: 30px;
-        }
+position:fixed;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(15,23,42,.95);
+backdrop-filter:blur(10px);
+z-index:1000;
 
-        .btn {
-            background: var(--primary);
-            color: #000;
-            padding: 16px 40px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-block;
-            transition: 0.3s;
-        }
+}
 
-        .btn:hover {
-            transform: scale(1.05);
-        }
+.logo{
 
-        .section-title {
-            text-align: center;
-            margin: 60px 0 20px;
-            font-size: 28px;
-        }
+font-size:28px;
+font-weight:700;
+color:#00ff88;
 
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            padding: 40px 8%;
-        }
+}
 
-        .card {
-            background: var(--card);
-            padding: 30px;
-            border-radius: 20px;
-            text-align: center;
-            transition: 0.3s;
-        }
+nav a{
 
-        .card:hover {
-            transform: translateY(-5px);
-        }
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
 
-        .card h3 {
-            margin-bottom: 10px;
-            color: var(--primary);
-        }
+}
 
-        .card p {
-            color: var(--light);
-        }
+nav a:hover{
 
-        #contato {
-            text-align: center;
-            padding: 60px 8%;
-        }
+color:#00ff88;
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111827;
-            color: var(--light);
-            font-size: 14px;
-        }
+}
 
-        @media(max-width: 768px) {
-            .hero h2 {
-                font-size: 26px;
-            }
-        }
-    </style>
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(15,23,42,.90)),
+url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+}
+
+.hero span{
+
+color:#00ff88;
+
+}
+
+.hero p{
+
+margin:20px auto;
+max-width:700px;
+color:#ddd;
+font-size:18px;
+
+}
+
+.btn{
+
+display:inline-block;
+margin:10px;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+
+}
+
+.btn1{
+
+background:#00ff88;
+color:#000;
+
+}
+
+.btn2{
+
+border:2px solid #00ff88;
+color:#00ff88;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+section{
+
+padding:80px 8%;
+
+}
+
+.titulo{
+
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+border:1px solid #00ff88;
+
+}
+
+.card i{
+
+font-size:45px;
+color:#00ff88;
+margin-bottom:20px;
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+}
+
+.card p{
+
+color:#b8c5d3;
+
+}
+
+footer{
+
+background:#111827;
+text-align:center;
+padding:25px;
+color:#ccc;
+
+}
+
+.whatsapp{
+
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+color:white;
+text-decoration:none;
+
+}
+
+</style>
+
 </head>
+
 <body>
 
 <header>
-    <h1>CodeFixer</h1>
-    <nav>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-    </nav>
+
+<div class="logo">
+CodeFixer
+</div>
+
+<nav>
+
+<a href="#">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+
+</nav>
+
 </header>
 
 <section class="hero">
-    <h2>Soluções Profissionais em Informática</h2>
-    <p>Manutenção completa para seu computador em Cabo Frio.</p>
-    <a href="https://wa.me/5521999212228" class="btn" target="_blank">
-        Solicitar Suporte
-    </a>
-</section>
 
-<h2 id="servicos" class="section-title">Nossos Serviços</h2>
+<div>
 
-<div class="grid">
-    <div class="card">
-        <h3>Formatação</h3>
-        <p>Instalação limpa e otimizada do sistema operacional.</p>
-    </div>
-    <div class="card">
-        <h3>Upgrade SSD</h3>
-        <p>Mais velocidade e desempenho para seu computador.</p>
-    </div>
-    <div class="card">
-        <h3>Limpeza Interna</h3>
-        <p>Manutenção preventiva para aumentar a vida útil do equipamento.</p>
-    </div>
+<h1>
+<span>CodeFixer</span><br>
+Tecnologia para o seu Negócio
+</h1>
+
+<p>
+
+Criação de Sites Profissionais, Desenvolvimento de Sistemas,
+Automação, Suporte Técnico e Manutenção de Computadores em
+<strong>Cachoeiras de Macacu - RJ</strong>.
+
+</p>
+
+<a class="btn btn1"
+href="https://wa.me/5521999212228">
+Solicitar Orçamento
+</a>
+
+<a class="btn btn2"
+href="#servicos">
+Conhecer Serviços
+</a>
+
 </div>
 
+</section>
+
+<section id="servicos">
+
+<h2 class="titulo">
+Nossos Serviços
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fas fa-globe"></i>
+
+<h3>Criação de Sites</h3>
+
+<p>
+
+Sites modernos, responsivos e otimizados para Google.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fas fa-code"></i>
+
+<h3>Desenvolvimento de Sistemas</h3>
+
+<p>
+
+Sistemas personalizados para empresas, com painel administrativo e banco de dados.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fas fa-laptop"></i>
+
+<h3>Manutenção de Computadores</h3>
+
+<p>
+
+Formatação, SSD, limpeza, upgrade e remoção de vírus.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fas fa-robot"></i>
+
+<h3>Automação</h3>
+
+<p>
+
+Automatização de tarefas para aumentar a produtividade da sua empresa.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="sobre">
+
+<h2 class="titulo">
+Sobre a CodeFixer
+</h2>
+
+<p style="max-width:900px;margin:auto;text-align:center;color:#ccc;line-height:30px;">
+
+A CodeFixer oferece soluções completas em tecnologia para empresas e profissionais.
+Desenvolvemos sites modernos, sistemas personalizados, automações e prestamos suporte técnico especializado, sempre buscando qualidade, desempenho e inovação.
+
+</p>
+
+</section>
+
 <section id="contato">
-    <h2 class="section-title">Entre em Contato</h2>
-    <p>Atendimento rápido pelo WhatsApp.</p>
-    <br>
-    <a href="https://wa.me/5521999212228" class="btn" target="_blank">
-        Falar no WhatsApp
-    </a>
+
+<h2 class="titulo">
+Entre em Contato
+</h2>
+
+<p style="text-align:center;">
+
+📍 Cachoeiras de Macacu - RJ
+
+</p>
+
+<br>
+
+<p style="text-align:center;">
+
+Atendimento presencial e remoto para todo o Brasil.
+
+</p>
+
+<br><br>
+
+<div style="text-align:center;">
+
+<a class="btn btn1"
+href="https://wa.me/5521999212228">
+
+Falar no WhatsApp
+
+</a>
+
+</div>
+
 </section>
 
 <footer>
-    © 2026 CodeFixer - Todos os direitos reservados.
+
+© 2026 CodeFixer<br>
+
+Criação de Sites • Desenvolvimento de Sistemas • Manutenção de Computadores
+
 </footer>
+
+<a class="whatsapp"
+href="https://wa.me/5521999212228">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
 
 </body>
 </html>
